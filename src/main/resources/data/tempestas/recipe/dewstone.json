@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": "tempestas:dew_pearl"
+  },
+  "result": {
+    "id": "tempestas:dewstone",
+    "count": 1
+  }
+}

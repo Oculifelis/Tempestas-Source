@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tempestas:block/ember_salt_block"
+    }
+  }
+}

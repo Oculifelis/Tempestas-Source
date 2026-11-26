@@ -1,0 +1,248 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "particle": "tempestas:block/storm_glass_cap",
+    "foot": "minecraft:block/dark_oak_planks",
+    "tube": "tempestas:block/storm_glass_change",
+    "cap": "tempestas:block/storm_glass_cap"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        0,
+        4
+      ],
+      "to": [
+        12,
+        2,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            14,
+            12,
+            16
+          ],
+          "texture": "#foot"
+        },
+        "south": {
+          "uv": [
+            4,
+            14,
+            12,
+            16
+          ],
+          "texture": "#foot"
+        },
+        "east": {
+          "uv": [
+            4,
+            14,
+            12,
+            16
+          ],
+          "texture": "#foot"
+        },
+        "west": {
+          "uv": [
+            4,
+            14,
+            12,
+            16
+          ],
+          "texture": "#foot"
+        },
+        "up": {
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ],
+          "texture": "#foot"
+        },
+        "down": {
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ],
+          "texture": "#foot"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        2,
+        5
+      ],
+      "to": [
+        11,
+        12,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            4,
+            11,
+            14
+          ],
+          "texture": "#tube"
+        },
+        "south": {
+          "uv": [
+            5,
+            4,
+            11,
+            14
+          ],
+          "texture": "#tube"
+        },
+        "east": {
+          "uv": [
+            5,
+            4,
+            11,
+            14
+          ],
+          "texture": "#tube"
+        },
+        "west": {
+          "uv": [
+            5,
+            4,
+            11,
+            14
+          ],
+          "texture": "#tube"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        12,
+        5
+      ],
+      "to": [
+        11,
+        13,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            3,
+            11,
+            4
+          ],
+          "texture": "#cap"
+        },
+        "south": {
+          "uv": [
+            5,
+            3,
+            11,
+            4
+          ],
+          "texture": "#cap"
+        },
+        "east": {
+          "uv": [
+            5,
+            3,
+            11,
+            4
+          ],
+          "texture": "#cap"
+        },
+        "west": {
+          "uv": [
+            5,
+            3,
+            11,
+            4
+          ],
+          "texture": "#cap"
+        },
+        "up": {
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ],
+          "texture": "#cap"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        13,
+        6
+      ],
+      "to": [
+        10,
+        15,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            1,
+            10,
+            3
+          ],
+          "texture": "#cap"
+        },
+        "south": {
+          "uv": [
+            6,
+            1,
+            10,
+            3
+          ],
+          "texture": "#cap"
+        },
+        "east": {
+          "uv": [
+            6,
+            1,
+            10,
+            3
+          ],
+          "texture": "#cap"
+        },
+        "west": {
+          "uv": [
+            6,
+            1,
+            10,
+            3
+          ],
+          "texture": "#cap"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            4,
+            4
+          ],
+          "texture": "#cap"
+        }
+      }
+    }
+  ]
+}

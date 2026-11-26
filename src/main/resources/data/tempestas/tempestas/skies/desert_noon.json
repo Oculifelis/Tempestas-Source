@@ -1,0 +1,30 @@
+{
+  "priority": 20,
+  "color": "f2c46b",
+  "weather": "clear",
+  "temperature": {
+    "min": 1.5
+  },
+  "time": {
+    "from": 5000,
+    "to": 7000
+  },
+  "release": {
+    "duration": 600,
+    "radius": 6,
+    "particles": [
+      "minecraft:white_ash"
+    ],
+    "effects": [
+      {
+        "type": "melt",
+        "samples": 12,
+        "chance": 0.6
+      },
+      {
+        "type": "potion",
+        "effect": "minecraft:fire_resistance"
+      }
+    ]
+  }
+}

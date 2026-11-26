@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " T ",
+    "NCN",
+    " N "
+  ],
+  "key": {
+    "T": "minecraft:string",
+    "N": "minecraft:gold_nugget",
+    "C": "tempestas:dew_pearl"
+  },
+  "result": {
+    "id": "tempestas:dew_charm",
+    "count": 1
+  }
+}

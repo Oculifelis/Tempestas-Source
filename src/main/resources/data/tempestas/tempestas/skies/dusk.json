@@ -1,0 +1,21 @@
+{
+  "priority": 10,
+  "color": "d0708a",
+  "weather": "clear",
+  "time": {
+    "from": 11500,
+    "to": 13500
+  },
+  "release": {
+    "duration": 900,
+    "radius": 10,
+    "particles": [
+      "minecraft:wax_off"
+    ],
+    "effects": [
+      {
+        "type": "calm"
+      }
+    ]
+  }
+}

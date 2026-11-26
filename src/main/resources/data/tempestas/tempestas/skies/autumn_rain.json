@@ -1,0 +1,38 @@
+{
+  "priority": 22,
+  "color": "b0703a",
+  "weather": "rain",
+  "seasons": [
+    "fundamentum:autumn"
+  ],
+  "release": {
+    "duration": 600,
+    "radius": 7,
+    "particles": [
+      "minecraft:spore_blossom_air"
+    ],
+    "effects": [
+      {
+        "type": "grow",
+        "samples": 10,
+        "chance": 0.4
+      },
+      {
+        "type": "water",
+        "samples": 8,
+        "chance": 0.4
+      }
+    ],
+    "sound": "minecraft:weather.rain",
+    "cloud": {
+      "height": 9,
+      "spread": 4,
+      "thickness": 4,
+      "darkness": 0.3
+    },
+    "falling": [
+      "minecraft:falling_water"
+    ],
+    "falling_rate": 28
+  }
+}

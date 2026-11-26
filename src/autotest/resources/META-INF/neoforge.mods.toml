@@ -1,0 +1,18 @@
+modLoader = "javafml"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "tempestas_autotest"
+version = "0"
+displayName = "Tempestas autotest (dev only)"
+description = '''Drives a fresh world through the Tempestas checklist. Loaded only by runClient -Pautotest=1.'''
+
+[[mixins]]
+config = "tempestas_autotest.mixins.json"
+
+[[dependencies.tempestas_autotest]]
+modId = "tempestas"
+type = "required"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"

@@ -1,0 +1,8 @@
+{
+  "blocks": [
+    "tempestas:ember_salt_block"
+  ],
+  "temperature": 1.0,
+  "humidity": -0.4,
+  "radius": 3
+}

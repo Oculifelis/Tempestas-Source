@@ -1,0 +1,28 @@
+{
+  "priority": 25,
+  "color": "26306e",
+  "weather": "clear",
+  "time": {
+    "from": 13500,
+    "to": 22500
+  },
+  "y": {
+    "min": 110
+  },
+  "release": {
+    "duration": 900,
+    "radius": 8,
+    "particles": [
+      "minecraft:end_rod"
+    ],
+    "effects": [
+      {
+        "type": "potion",
+        "effect": "minecraft:night_vision"
+      },
+      {
+        "type": "calm"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "priority": 0,
+  "color": "5e7489",
+  "weather": "rain",
+  "release": {
+    "duration": 600,
+    "radius": 6,
+    "effects": [
+      {
+        "type": "water",
+        "samples": 10,
+        "chance": 0.5
+      },
+      {
+        "type": "grow",
+        "samples": 6,
+        "chance": 0.25
+      }
+    ],
+    "sound": "minecraft:weather.rain",
+    "cloud": {
+      "height": 9,
+      "spread": 4,
+      "thickness": 4,
+      "darkness": 0.25
+    },
+    "falling": [
+      "minecraft:falling_water"
+    ],
+    "falling_rate": 28
+  }
+}

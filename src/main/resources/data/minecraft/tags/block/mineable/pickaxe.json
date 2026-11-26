@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tempestas:weather_condenser",
+    "tempestas:ember_salt_block",
+    "tempestas:rime_salt_block",
+    "tempestas:dewstone"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "priority": 15,
+  "color": "bfe3f5",
+  "weather": "clear",
+  "y": {
+    "min": 180
+  },
+  "release": {
+    "duration": 600,
+    "radius": 6,
+    "particles": [
+      "minecraft:cloud"
+    ],
+    "effects": [
+      {
+        "type": "potion",
+        "effect": "minecraft:slow_falling"
+      },
+      {
+        "type": "potion",
+        "effect": "minecraft:jump_boost",
+        "amplifier": 1
+      }
+    ]
+  }
+}

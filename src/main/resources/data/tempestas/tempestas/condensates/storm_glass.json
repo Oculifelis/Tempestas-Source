@@ -1,0 +1,8 @@
+{
+  "result": "tempestas:storm_glass",
+  "time": 600,
+  "priority": 10,
+  "weather": "thunder",
+  "sky": true,
+  "color": "b9a6ff"
+}

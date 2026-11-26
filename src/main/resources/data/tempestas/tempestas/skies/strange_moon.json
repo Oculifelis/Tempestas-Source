@@ -1,0 +1,25 @@
+{
+  "priority": 50,
+  "color": "c060e0",
+  "moon": "fundamentum:psychedelic",
+  "release": {
+    "duration": 600,
+    "radius": 8,
+    "particles": [
+      "minecraft:glow",
+      "minecraft:end_rod"
+    ],
+    "effects": [
+      {
+        "type": "grow",
+        "samples": 10,
+        "chance": 0.4
+      },
+      {
+        "type": "potion",
+        "effect": "minecraft:glowing",
+        "players_only": false
+      }
+    ]
+  }
+}

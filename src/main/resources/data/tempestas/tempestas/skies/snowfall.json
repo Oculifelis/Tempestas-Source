@@ -1,0 +1,32 @@
+{
+  "priority": 0,
+  "color": "dce6f0",
+  "weather": "snow",
+  "release": {
+    "duration": 600,
+    "radius": 6,
+    "effects": [
+      {
+        "type": "snow",
+        "samples": 8,
+        "chance": 0.35,
+        "max_layers": 2
+      },
+      {
+        "type": "freeze",
+        "samples": 6,
+        "chance": 0.4
+      }
+    ],
+    "cloud": {
+      "height": 9,
+      "spread": 4,
+      "thickness": 4,
+      "darkness": 0.15
+    },
+    "falling": [
+      "minecraft:snowflake"
+    ],
+    "falling_rate": 18
+  }
+}

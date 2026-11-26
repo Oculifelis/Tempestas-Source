@@ -1,0 +1,32 @@
+{
+  "item": "tempestas:rime_charm",
+  "sky": true,
+  "weather": [
+    "snow"
+  ],
+  "freeze_proof": true,
+  "attributes": [
+    {
+      "attribute": "fundamentum:ice_resistance",
+      "amount": 0.5
+    }
+  ],
+  "aura": [
+    {
+      "type": "frost_walk",
+      "radius": 2
+    }
+  ],
+  "on_hit": [
+    {
+      "type": "freeze",
+      "ticks": 200
+    },
+    {
+      "type": "effect",
+      "effect": "minecraft:slowness",
+      "amplifier": 1,
+      "seconds": 3
+    }
+  ]
+}

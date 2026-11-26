@@ -1,0 +1,34 @@
+{
+  "priority": 5,
+  "color": "3a3550",
+  "weather": "thunder",
+  "release": {
+    "duration": 400,
+    "radius": 6,
+    "particles": [
+      "minecraft:electric_spark"
+    ],
+    "effects": [
+      {
+        "type": "lightning",
+        "count": 1
+      },
+      {
+        "type": "water",
+        "samples": 8,
+        "chance": 0.4
+      }
+    ],
+    "sound": "minecraft:entity.lightning_bolt.thunder",
+    "cloud": {
+      "height": 9,
+      "spread": 4,
+      "thickness": 5,
+      "darkness": 0.85
+    },
+    "falling": [
+      "minecraft:falling_water"
+    ],
+    "falling_rate": 40
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "priority": 30,
+  "color": "0e0f1c",
+  "weather": "clear",
+  "time": {
+    "from": 13000,
+    "to": 23000
+  },
+  "moon_phases": [
+    4
+  ],
+  "release": {
+    "duration": 600,
+    "radius": 6,
+    "particles": [
+      "minecraft:smoke"
+    ],
+    "effects": [
+      {
+        "type": "potion",
+        "effect": "minecraft:invisibility"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "reading=fair": {
+      "model": "tempestas:block/storm_glass_fair"
+    },
+    "reading=change": {
+      "model": "tempestas:block/storm_glass_change"
+    },
+    "reading=rain": {
+      "model": "tempestas:block/storm_glass_rain"
+    },
+    "reading=storm": {
+      "model": "tempestas:block/storm_glass_storm"
+    },
+    "reading=clearing": {
+      "model": "tempestas:block/storm_glass_clearing"
+    }
+  }
+}

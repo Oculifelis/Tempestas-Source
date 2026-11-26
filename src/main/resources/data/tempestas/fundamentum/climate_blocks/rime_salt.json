@@ -1,0 +1,8 @@
+{
+  "blocks": [
+    "tempestas:rime_salt_block"
+  ],
+  "temperature": -1.0,
+  "humidity": 0.0,
+  "radius": 3
+}

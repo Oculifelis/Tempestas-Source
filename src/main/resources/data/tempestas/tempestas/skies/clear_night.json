@@ -1,0 +1,21 @@
+{
+  "priority": 0,
+  "color": "1b2350",
+  "weather": "clear",
+  "time": {
+    "from": 13000,
+    "to": 23000
+  },
+  "release": {
+    "duration": 600,
+    "radius": 8,
+    "particles": [
+      "minecraft:end_rod"
+    ],
+    "effects": [
+      {
+        "type": "calm"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Tempestas",
+  "icon": "tempestas:weather_almanac",
+  "chapters": [
+    {
+      "id": "basics",
+      "title": "The Weather",
+      "icon": "tempestas:climate_gauge"
+    },
+    {
+      "id": "skies",
+      "title": "Catching Skies",
+      "icon": "tempestas:sky_jar"
+    },
+    {
+      "id": "condensing",
+      "title": "Condensing",
+      "icon": "tempestas:weather_condenser"
+    },
+    {
+      "id": "charms",
+      "title": "Charms",
+      "icon": "tempestas:storm_charm"
+    }
+  ]
+}

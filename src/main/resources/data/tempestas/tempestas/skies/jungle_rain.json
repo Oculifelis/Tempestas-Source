@@ -1,0 +1,38 @@
+{
+  "priority": 20,
+  "color": "3e8a5a",
+  "weather": "rain",
+  "biomes": [
+    "#minecraft:is_jungle"
+  ],
+  "release": {
+    "duration": 600,
+    "radius": 7,
+    "particles": [
+      "minecraft:happy_villager"
+    ],
+    "effects": [
+      {
+        "type": "grow",
+        "samples": 12,
+        "chance": 0.5
+      },
+      {
+        "type": "water",
+        "samples": 8,
+        "chance": 0.4
+      }
+    ],
+    "sound": "minecraft:weather.rain",
+    "cloud": {
+      "height": 9,
+      "spread": 4,
+      "thickness": 4,
+      "darkness": 0.3
+    },
+    "falling": [
+      "minecraft:falling_water"
+    ],
+    "falling_rate": 36
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "tempestas:caught_sky"
+    },
+    "title": {
+      "translate": "advancements.tempestas.ahead_of_the_storm.title"
+    },
+    "description": {
+      "translate": "advancements.tempestas.ahead_of_the_storm.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "tempestas:weather_eye",
+  "criteria": {
+    "caught": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

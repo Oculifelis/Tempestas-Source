@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "tempestas:rime_salt_block"
+  ],
+  "result": {
+    "id": "tempestas:rime_salt",
+    "count": 9
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tempestas:block/dewstone"
+      },
+      {
+        "model": "tempestas:block/dewstone_1"
+      },
+      {
+        "model": "tempestas:block/dewstone_2"
+      },
+      {
+        "model": "tempestas:block/dewstone_3"
+      }
+    ]
+  }
+}

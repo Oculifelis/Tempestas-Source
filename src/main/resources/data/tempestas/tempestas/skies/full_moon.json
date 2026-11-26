@@ -1,0 +1,26 @@
+{
+  "priority": 30,
+  "color": "e8e4c8",
+  "weather": "clear",
+  "time": {
+    "from": 13000,
+    "to": 23000
+  },
+  "moon_phases": [
+    0
+  ],
+  "release": {
+    "duration": 900,
+    "radius": 8,
+    "particles": [
+      "minecraft:glow"
+    ],
+    "effects": [
+      {
+        "type": "grow",
+        "samples": 12,
+        "chance": 0.5
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "priority": 40,
+  "color": "8a3a2a",
+  "dimension": "minecraft:the_nether",
+  "sky": false,
+  "release": {
+    "duration": 600,
+    "radius": 6,
+    "particles": [
+      "minecraft:ash"
+    ],
+    "effects": [
+      {
+        "type": "potion",
+        "effect": "minecraft:fire_resistance"
+      },
+      {
+        "type": "melt",
+        "samples": 10,
+        "chance": 0.6
+      }
+    ]
+  }
+}
