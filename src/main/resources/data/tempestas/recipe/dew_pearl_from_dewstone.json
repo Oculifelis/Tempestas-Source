@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "tempestas:dewstone"
+  ],
+  "result": {
+    "id": "tempestas:dew_pearl",
+    "count": 9
+  }
+}

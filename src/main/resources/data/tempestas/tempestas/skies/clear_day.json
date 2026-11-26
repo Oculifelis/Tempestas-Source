@@ -1,0 +1,23 @@
+{
+  "priority": 0,
+  "color": "7fb4f0",
+  "weather": "clear",
+  "time": {
+    "from": 1000,
+    "to": 11500
+  },
+  "release": {
+    "duration": 600,
+    "radius": 6,
+    "particles": [
+      "minecraft:wax_on"
+    ],
+    "effects": [
+      {
+        "type": "melt",
+        "samples": 8,
+        "chance": 0.4
+      }
+    ]
+  }
+}

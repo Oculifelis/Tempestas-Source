@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "tempestas:storm_glass"
+    },
+    "title": {
+      "translate": "advancements.tempestas.weather_eye.title"
+    },
+    "description": {
+      "translate": "advancements.tempestas.weather_eye.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "tempestas:first_sky",
+  "criteria": {
+    "placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "tempestas:storm_glass"
+          }
+        ]
+      }
+    }
+  }
+}

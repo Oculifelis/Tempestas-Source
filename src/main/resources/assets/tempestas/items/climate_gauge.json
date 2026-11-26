@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "tempestas:item/climate_gauge"
+  }
+}

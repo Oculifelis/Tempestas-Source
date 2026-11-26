@@ -1,0 +1,27 @@
+{
+  "priority": 35,
+  "color": "f2c6de",
+  "weather": "clear",
+  "after": "rain",
+  "weather_age": {
+    "max": 600
+  },
+  "time": {
+    "from": 0,
+    "to": 12000
+  },
+  "release": {
+    "duration": 600,
+    "radius": 8,
+    "particles": [
+      "minecraft:glow",
+      "minecraft:happy_villager"
+    ],
+    "effects": [
+      {
+        "type": "potion",
+        "effect": "minecraft:luck"
+      }
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+    id 'idea'
+}
+
+version = "${mod_version}+${minecraft_version}-neoforge"
+group = mod_group_id
+
+base {
+    archivesName = mod_id
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
+
+repositories {
+    mavenCentral()
+    maven {
+        name = 'Curios'
+        url = 'https://maven.theillusivec4.top/'
+        content { includeGroup 'top.theillusivec4.curios' }
+    }
+    maven {
+        name = 'JEI (BlameJared)'
+        url = 'https://maven.blamejared.com/'
+        content { includeGroup 'mezz.jei'; includeGroup 'net.mezzdev.config' }
+    }
+}
+
+configurations {
+    localRuntime
+    runtimeClasspath.extendsFrom localRuntime
+}
+
+// Fundamentum and Jade are taken as jars into libs/ (not committed). Fundamentum is required to build;
+// without the Jade jar the Jade plugin is left out of the build.
+def fundamentumJar = file("libs/${fundamentum_file}")
+if (!fundamentumJar.exists()) {
+    throw new GradleException("Tempestas needs libs/${fundamentum_file} (Fundamentum) to build.")
+}
+def jadeJar = file("libs/${jade_file}")
+def hasJade = jadeJar.exists()
+if (!hasJade) {
+    logger.lifecycle("Tempestas: libs/${jade_file} not found, building without the Jade integration.")
+    sourceSets.main.java.exclude '**/compat/TempestasJadePlugin.java'
+}
+
+dependencies {
+    implementation files(fundamentumJar)
+    implementation "top.theillusivec4.curios:curios-neoforge:${curios_version}"
+    compileOnly "mezz.jei:jei-${jei_mc}-common-api:${jei_version}"
+    compileOnly "mezz.jei:jei-${jei_mc}-neoforge-api:${jei_version}"
+    localRuntime "mezz.jei:jei-${jei_mc}-neoforge:${jei_version}"
+    if (hasJade) {
+        compileOnly files(jadeJar)
+        localRuntime files(jadeJar)
+    }
+    // Dev-only extras (screenshot kits and the like) dropped into libs/extra/.
+    localRuntime fileTree('libs/extra') { include '*.jar' }
+}
+
+// The automated play-test: a second mod, loaded only by `runClient -Pautotest=1` (tools/run_client_test.sh).
+sourceSets {
+    autotest {
+        compileClasspath += sourceSets.main.output
+        runtimeClasspath += sourceSets.main.output
+    }
+}
+
+neoForge {
+    version = project.neo_version
+    runs {
+        client {
+            client()
+            gameDirectory = project.file('run')
+        }
+        server {
+            server()
+            gameDirectory = project.file('run-server')
+            programArgument '--nogui'
+        }
+        configureEach {
+            logLevel = org.slf4j.event.Level.INFO
+            jvmArgument '-Xmx2G'
+        }
+    }
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+        if (project.hasProperty('autotest')) {
+            tempestas_autotest {
+                sourceSet(sourceSets.autotest)
+            }
+        }
+    }
+}
+
+neoForge.addModdingDependenciesTo(sourceSets.autotest)
+dependencies {
+    autotestCompileOnly files(fundamentumJar)
+    autotestCompileOnly "top.theillusivec4.curios:curios-neoforge:${curios_version}"
+    autotestCompileOnly "mezz.jei:jei-${jei_mc}-common-api:${jei_version}"
+    autotestCompileOnly "mezz.jei:jei-${jei_mc}-neoforge-api:${jei_version}"
+}
+if (project.hasProperty('autotest')) {
+    neoForge.runs.client {
+        systemProperty 'tempestas.autotest', project.property('autotest').toString()
+    }
+}
+
+var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
+    var replaceProperties = [
+            minecraft_version      : minecraft_version,
+            minecraft_version_range: minecraft_version_range,
+            neo_version            : neo_version,
+            neo_version_range      : neo_version_range,
+            fundamentum_range      : fundamentum_range,
+            mod_id                 : mod_id,
+            mod_name               : mod_name,
+            mod_license            : mod_license,
+            mod_version            : mod_version,
+            mod_authors            : mod_authors,
+            mod_description        : mod_description,
+    ]
+    inputs.properties replaceProperties
+    expand replaceProperties
+    from "src/main/templates"
+    into "build/generated/sources/modMetadata"
+}
+sourceSets.main.resources.srcDir generateModMetadata
+neoForge.ideSyncTask generateModMetadata
+
+tasks.named('processResources', ProcessResources).configure {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+tasks.named('jar') {
+    from([file('LICENSE'), file('COPYING'), file('CREDITS.md')]) {
+        into 'META-INF'
+    }
+}

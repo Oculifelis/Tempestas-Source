@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tempestas:ember_charm",
+    "tempestas:rime_charm",
+    "tempestas:dew_charm",
+    "tempestas:storm_charm"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "far": 6000,
+  "near": 1200,
+  "comparator": {
+    "fair": 0,
+    "change": 4,
+    "rain": 9,
+    "storm": 15,
+    "clearing": 2
+  }
+}

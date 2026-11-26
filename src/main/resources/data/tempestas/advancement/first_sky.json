@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "tempestas:sky_jar"
+    },
+    "title": {
+      "translate": "advancements.tempestas.first_sky.title"
+    },
+    "description": {
+      "translate": "advancements.tempestas.first_sky.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "caught": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "tempestas:caught_sky"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " C ",
+    "CXC",
+    " C "
+  ],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "X": "minecraft:compass"
+  },
+  "result": {
+    "id": "tempestas:climate_gauge",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "priority": 40,
+  "color": "3d2d52",
+  "dimension": "minecraft:the_end",
+  "sky": false,
+  "release": {
+    "duration": 600,
+    "radius": 8,
+    "particles": [
+      "minecraft:reverse_portal"
+    ],
+    "effects": [
+      {
+        "type": "potion",
+        "effect": "minecraft:slow_falling"
+      },
+      {
+        "type": "calm"
+      }
+    ]
+  }
+}

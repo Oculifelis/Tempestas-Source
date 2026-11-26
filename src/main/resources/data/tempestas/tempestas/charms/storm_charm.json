@@ -1,0 +1,25 @@
+{
+  "item": "tempestas:storm_charm",
+  "sky": true,
+  "weather": [
+    "thunder"
+  ],
+  "lightning_proof": true,
+  "attributes": [
+    {
+      "attribute": "fundamentum:electric_resistance",
+      "amount": 0.5
+    },
+    {
+      "attribute": "minecraft:movement_speed",
+      "amount": 0.1,
+      "operation": "add_multiplied_base"
+    }
+  ],
+  "on_hit": [
+    {
+      "type": "lightning",
+      "chance": 0.15
+    }
+  ]
+}

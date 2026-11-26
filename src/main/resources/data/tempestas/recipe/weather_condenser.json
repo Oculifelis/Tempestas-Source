@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CGC",
+    "GBG",
+    "CCC"
+  ],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "G": "#c:glass_blocks",
+    "B": "minecraft:bucket"
+  },
+  "result": {
+    "id": "tempestas:weather_condenser",
+    "count": 1
+  }
+}

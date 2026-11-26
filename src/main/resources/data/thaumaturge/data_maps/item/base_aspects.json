@@ -1,0 +1,345 @@
+{
+  "replace": false,
+  "values": {
+    "tempestas:sky_jar": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "thaumaturge"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:aer",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:vacuos",
+          "amount": 1
+        }
+      ]
+    },
+    "tempestas:caught_sky": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "thaumaturge"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:aer",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:cognitio",
+          "amount": 2
+        }
+      ]
+    },
+    "tempestas:weather_almanac": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "thaumaturge"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:cognitio",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:aer",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:sensus",
+          "amount": 2
+        }
+      ]
+    },
+    "tempestas:weather_condenser": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "thaumaturge"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:alkimia",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:aqua",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:machina",
+          "amount": 2
+        }
+      ]
+    },
+    "tempestas:climate_gauge": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "thaumaturge"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:sensus",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:instrumentum",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:aer",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 2
+        }
+      ]
+    },
+    "tempestas:ember_salt": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "thaumaturge"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:alkimia",
+          "amount": 2
+        }
+      ]
+    },
+    "tempestas:rime_salt": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "thaumaturge"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:gelum",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:alkimia",
+          "amount": 2
+        }
+      ]
+    },
+    "tempestas:dew_pearl": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "thaumaturge"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:aqua",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 2
+        }
+      ]
+    },
+    "tempestas:storm_glass": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "thaumaturge"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:aer",
+          "amount": 3
+        }
+      ]
+    },
+    "tempestas:ember_salt_block": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "thaumaturge"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 16
+        },
+        {
+          "aspect": "thaumaturge:alkimia",
+          "amount": 8
+        }
+      ]
+    },
+    "tempestas:rime_salt_block": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "thaumaturge"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:gelum",
+          "amount": 16
+        },
+        {
+          "aspect": "thaumaturge:alkimia",
+          "amount": 8
+        }
+      ]
+    },
+    "tempestas:dewstone": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "thaumaturge"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:aqua",
+          "amount": 4
+        }
+      ]
+    },
+    "tempestas:ember_charm": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "thaumaturge"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 2
+        }
+      ]
+    },
+    "tempestas:rime_charm": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "thaumaturge"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:gelum",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 2
+        }
+      ]
+    },
+    "tempestas:dew_charm": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "thaumaturge"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:aqua",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 2
+        }
+      ]
+    },
+    "tempestas:storm_charm": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "thaumaturge"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:aer",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "tempestas:ember_salt_block"
+  ],
+  "result": {
+    "id": "tempestas:ember_salt",
+    "count": 9
+  }
+}

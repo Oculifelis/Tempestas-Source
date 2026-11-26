@@ -1,0 +1,22 @@
+{
+  "priority": 10,
+  "color": "f0a890",
+  "weather": "clear",
+  "time": {
+    "from": 23000,
+    "to": 1000
+  },
+  "release": {
+    "duration": 600,
+    "radius": 6,
+    "particles": [
+      "minecraft:wax_off"
+    ],
+    "effects": [
+      {
+        "type": "potion",
+        "effect": "minecraft:regeneration"
+      }
+    ]
+  }
+}

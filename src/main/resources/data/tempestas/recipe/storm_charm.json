@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " T ",
+    "NCN",
+    " N "
+  ],
+  "key": {
+    "T": "minecraft:string",
+    "N": "minecraft:gold_nugget",
+    "C": "tempestas:storm_glass"
+  },
+  "result": {
+    "id": "tempestas:storm_charm",
+    "count": 1
+  }
+}

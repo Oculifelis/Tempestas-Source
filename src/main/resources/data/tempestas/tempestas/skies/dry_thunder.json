@@ -1,0 +1,25 @@
+{
+  "priority": 30,
+  "color": "c9a25a",
+  "weather": "dry_thunder",
+  "release": {
+    "duration": 300,
+    "radius": 8,
+    "particles": [
+      "minecraft:electric_spark"
+    ],
+    "effects": [
+      {
+        "type": "charge",
+        "count": 1
+      }
+    ],
+    "sound": "minecraft:entity.lightning_bolt.thunder",
+    "cloud": {
+      "height": 9,
+      "spread": 4,
+      "thickness": 5,
+      "darkness": 0.75
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "working=false": {
+      "model": "tempestas:block/weather_condenser"
+    },
+    "working=true": {
+      "model": "tempestas:block/weather_condenser_working"
+    }
+  }
+}

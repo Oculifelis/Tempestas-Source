@@ -1,0 +1,27 @@
+{
+  "priority": 20,
+  "color": "9fb0a0",
+  "humidity": {
+    "min": 0.8
+  },
+  "time": {
+    "from": 23000,
+    "to": 1500
+  },
+  "release": {
+    "duration": 600,
+    "radius": 8,
+    "particles": [
+      "minecraft:white_smoke"
+    ],
+    "effects": [
+      {
+        "type": "potion",
+        "effect": "minecraft:invisibility"
+      },
+      {
+        "type": "calm"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+build/
+.gradle/
+run/
+run-server/
+*.log
+*.out
+libs/
+/NOTES.md
+/DECISIONS.md
+review/

@@ -1,0 +1,39 @@
+{
+  "priority": 28,
+  "color": "7f9bb0",
+  "weather": "rain",
+  "after": "clear",
+  "weather_age": {
+    "max": 400
+  },
+  "release": {
+    "duration": 200,
+    "radius": 6,
+    "particles": [
+      "minecraft:rain"
+    ],
+    "effects": [
+      {
+        "type": "water",
+        "samples": 16,
+        "chance": 0.9
+      },
+      {
+        "type": "grow",
+        "samples": 12,
+        "chance": 0.5
+      }
+    ],
+    "sound": "minecraft:weather.rain",
+    "cloud": {
+      "height": 9,
+      "spread": 4,
+      "thickness": 4,
+      "darkness": 0.1
+    },
+    "falling": [
+      "minecraft:falling_water"
+    ],
+    "falling_rate": 12
+  }
+}

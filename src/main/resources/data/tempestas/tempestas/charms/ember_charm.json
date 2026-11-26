@@ -1,0 +1,35 @@
+{
+  "item": "tempestas:ember_charm",
+  "sky": true,
+  "weather": [
+    "clear"
+  ],
+  "time": {
+    "from": 0,
+    "to": 12000
+  },
+  "temperature": {
+    "min": 1.0
+  },
+  "also_in": [
+    "minecraft:the_nether"
+  ],
+  "attributes": [
+    {
+      "attribute": "fundamentum:fire_resistance",
+      "amount": 0.5
+    }
+  ],
+  "effects": [
+    {
+      "effect": "minecraft:fire_resistance",
+      "amplifier": 0
+    }
+  ],
+  "on_hit": [
+    {
+      "type": "ignite",
+      "seconds": 4
+    }
+  ]
+}

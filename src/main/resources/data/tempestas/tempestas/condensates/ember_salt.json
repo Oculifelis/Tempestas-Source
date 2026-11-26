@@ -1,0 +1,11 @@
+{
+  "result": "tempestas:ember_salt",
+  "time": 1200,
+  "temperature": {
+    "min": 1.5
+  },
+  "humidity": {
+    "max": 0.3
+  },
+  "color": "e8743a"
+}
