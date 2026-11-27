@@ -1,6 +1,6 @@
 modLoader = "javafml"
 license = "${mod_license}"
-issueTrackerURL="https://github.com/Oculifelis/Tempestas/issues"
+issueTrackerURL="https://github.com/Oculifelis/Tempestas-Source/issues"
 
 [[mods]]
 modId = "${mod_id}"
